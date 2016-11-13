@@ -1,0 +1,23 @@
+// ----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// ----------------------------------------------------------------------------
+// Roboto - Body
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700');
+
+// LoveYaLikeASister - Headings
+@font-face {
+    font-family: 'LoveYaLikeASister';
+    src: url('../fonts/loveyalikeasister-webfont.woff2') format('woff2'),
+         url('../fonts/loveyalikeasister-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// LoveYaLikeASisterSolid - Headings
+@font-face {
+    font-family: 'LoveYaLikeASisterSolid';
+    src: url('../fonts/loveyalikeasistersolid-webfont.woff2') format('woff2'),
+         url('../fonts/loveyalikeasistersolid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

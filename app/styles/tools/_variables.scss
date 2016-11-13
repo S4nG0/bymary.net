@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$font-stacks: 'Merriweather', sans-serif;
+
+/// Regular font family
+/// @type List
+$font-headings: 'LoveYaLikeASister';
+$font-headings-solid: 'LoveYaLikeASisterSolid';
+
+
+/// Copy text color
+/// @type Color
+$text-color: #212121 !default;
+
+/// Background colors
+/// @type BackgroundColors
+$black: #f8f8f8;
+$white: #f8f8f8;
+$magenta: #C8004F;
+$yellow: #F7DB58;
+$blue: #336CA7;
+$skyblue: #009AD6;
+$green: #48A729;
+$lightgreen: #94BF11;
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+/// @see {mixin} respond-to
+$breakpoints: (
+    'small': (min-width: 320px),
+    'medium': (min-width: 768px),
+    'large': (min-width: 1024px),
+) !default;
