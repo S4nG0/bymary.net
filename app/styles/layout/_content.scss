@@ -5,6 +5,14 @@
 .latest {
     padding: 50px 0;
     background-color: $yellow;
-    color: $text-color;
+    color: $black;
     text-align: center;
+
+    h2 {
+        margin: 0;
+    }
+}
+
+.latest__list {
+    padding-top: 50px;
 }

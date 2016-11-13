@@ -10,15 +10,18 @@
 
 // Defines HTML headings
 h1 {
-    font-family: $font-headings;
+    font-family: $font-headings-solid;
+    line-height: 1.1;
 }
 
 h2 {
     font-family: $font-headings-solid;
+    line-height: 1.1;
 }
 
 h3 {
-    font-family: $font-headings;
+    font-family: $font-headings-solid;
+    line-height: 1.1;
 }
 
 h4 {
@@ -105,7 +108,13 @@ mark {
 
 // Defines a hyperlink
 a {
-    // ..
+    color: $black;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+    &:hover, &:focus {
+        text-decoration: none;
+    }
 }
 
 
